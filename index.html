@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Advance Filterable Image Gallery by Aniruddh</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div id="side-menu" class="fas fa-bars"></div>   
+
+<div class="side-bar">
+   <h1 class="heading">filter images</h1>
+   <div class="box">
+      <h3 class="title">search image :</h3>
+      <input type="text" placeholder="search image..." id="search-box">
+   </div>
+   <div class="box">
+      <h3 class="title">category :</h3>
+      <div class="category">
+         <div class="btn active" data-category="all"> all </div>
+         <div class="btn" data-category="animal">animals</div>
+         <div class="btn" data-category="food">food</div>
+         <div class="btn" data-category="fish">fish</div>
+         <div class="btn" data-category="flower">flower</div>
+      </div>
+   </div>
+   <div class="box">
+      <h3 class="title">type :</h3>
+      <div class="type">
+         <div class="btn active" data-type="all">all type</div>
+         <div class="btn" data-type="jpg">jpg</div>
+         <div class="btn" data-type="png">png</div>
+         <div class="btn" data-type="svg">svg</div>
+      </div>
+   </div>
+   <div class="reset-btn"><div class="btn">reset all</div></div>
+</div>
+
+<div class="gallery">
+
+   <h1 class="heading">image gallery by aniruddh</h1>
+
+   <div class="image-container">
+      <img src="images/img-1.jpg" data-cat="animal" data-search="animal bird cute chicks" alt="">
+      <img src="images/img-2.svg" data-cat="food" data-search="vector cookies christmas" alt="">
+      <img src="images/img-3.png" data-cat="food" data-search="food corn cartoon png" alt="">
+      <img src="images/img-4.jpg" data-cat="fish" data-search="animal fish dolphin" alt="">
+      <img src="images/img-5.jpg" data-cat="animal" data-search="animal squirrel cute" alt="">
+      <img src="images/img-6.png" data-cat="animal" data-search="animal panda png cartoon" alt="">
+      <img src="images/img-7.svg" data-cat="animal" data-search="animal penguine bird cartoon" alt="">
+      <img src="images/img-8.jpg" data-cat="animal" data-search="animal bird cute" alt="">
+      <img src="images/img-9.png" data-cat="animal" data-search="animal cat mouse cute png" alt="">
+      <img src="images/img-10.svg" data-cat="fish" data-search="animal fish shark vector" alt="">
+      <img src="images/img-11.jpg" data-cat="food" data-search="food orange" alt="">
+      <img src="images/img-12.svg" data-cat="food" data-search="food vector juice drink" alt="">
+      <img src="images/img-13.png" data-cat="food" data-search="food chicken cartoon png" alt="">
+      <img src="images/img-14.jpg" data-cat="food" data-search="food coffee bread breakfast" alt="">
+      <img src="images/img-15.png" data-cat="food" data-search="food burger png cartoon" alt="">
+      <img src="images/img-16.svg" data-cat="food" data-search="food popcorn vector" alt="">
+      <img src="images/img-17.jpg" data-cat="food" data-search="food pancake breakfast" alt="">
+      <img src="images/img-18.svg" data-cat="flower" data-search="flower plants nature vector" alt="">
+      <img src="images/img-19.png" data-cat="flower" data-search="flower plants nature cartoon" alt="">
+      <img src="images/img-20.jpg" data-cat="flower" data-search="flower plants nature" alt="">
+   </div>
+
+</div>
+
+<div class="image-popup">
+   <img src="" alt="">
+</div>
+    <div class="footer">
+        <p>Copyright &copy; 2022 All Rights Reserved | Website made by <a href="https://anirudddh.github.io/resume/" >Aniruddha Rajendra Shinde</a>  </p>
+        
+    </div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
